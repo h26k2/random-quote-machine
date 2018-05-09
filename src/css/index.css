@@ -10,6 +10,7 @@ body{
     margin:0;
     padding:0;
     font-family: "raleway",sans-serif;
+    background:#f1f1f1;
 }
 
 h2{
@@ -40,6 +41,7 @@ a , p{
     transform:translateX(-50%);
     width:350px;
     margin-top:12em;
+    margin-bottom:5em;
 }
 
 .machine--header{
@@ -211,10 +213,11 @@ a , p{
 .machine--end{
     position: relative;
     width:110%;
-    height:20px;
+    height:30px;
     left:50%;
     transform:translateX(-50%);
-    background:#ba252b;
+    border:10px solid #ba252b;
+    background: #ee3835;
     border-radius: 20px;
 }
 
